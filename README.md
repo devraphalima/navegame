@@ -1,6 +1,6 @@
 # BYTE QUEST
 
-Um mini jogo de nave e meteoros em pixel art, feito em C++ para Windows com Win32. O menu, a nave, os meteoros, a música chiptune e os efeitos sonoros são desenhados ou gerados pelo próprio código.
+Um mini jogo de nave e meteoros em pixel art, feito em C17 para Windows com Win32. O menu, a nave, os meteoros, a música chiptune e os efeitos sonoros são desenhados ou gerados pelo próprio código.
 
 ![Gameplay do BYTE QUEST](bytequest.gif)
 
@@ -15,14 +15,14 @@ Um mini jogo de nave e meteoros em pixel art, feito em C++ para Windows com Win3
 
 ## Como executar
 
-O projeto usa C++20, a API Win32 e o áudio WaveOut do Windows; não precisa baixar bibliotecas ou arquivos de música.
+O projeto usa C17, a API Win32 e o áudio WaveOut do Windows; não precisa baixar bibliotecas ou arquivos de música.
 
-1. Abra `amaisb.slnx` no Visual Studio com o workload **Desenvolvimento para desktop com C++** instalado.
+1. Abra `amaisb.slnx` no Visual Studio com o workload **Desenvolvimento para desktop com C++** instalado (o Visual Studio usa esse workload para projetos C também).
 2. Selecione a configuração **Debug** e a plataforma **x64**.
 3. Compile e execute com **Ctrl+F5** (ou clique em **Iniciar**).
 
 ## Estrutura
 
-- `amaisb/amaisb.cpp`: menu, lógica do jogo, renderização pixelada e áudio.
-- `amaisb/`: projeto Visual C++ e recursos do aplicativo.
+- `amaisb/amaisb.c`: menu, lógica do jogo, renderização pixelada e áudio, implementados em C.
+- `amaisb/`: projeto do Visual Studio para C e recursos do aplicativo.
 - `bytequest.gif`: animação de gameplay usada neste README.

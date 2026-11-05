@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="amaisb.cpp">
+    <ClCompile Include="amaisb.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
