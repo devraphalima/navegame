@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="amaisb/amaisb.vcxproj" Id="f0280523-e4b2-491f-a09c-7dd3dfac4bd2" />
+</Solution>
